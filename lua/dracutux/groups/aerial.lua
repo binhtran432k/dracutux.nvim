@@ -2,11 +2,11 @@ local M = {}
 
 M.url = "https://github.com/stevearc/aerial.nvim"
 
----@type DraculaHighlightsFn
+---@type dracutux.HighlightsFn
 function M.get(c)
   local ret = {
-    AerialNormal = { fg = c.fg, bg = c.none },
-    AerialGuide = { fg = c.gutter_fg },
+    AerialNormal = { fg = c.text, bg = "NONE" },
+    AerialGuide = { fg = c.subtle_text },
     AerialLine = "LspInlayHint",
   }
   require("dracula.groups.kinds").kinds(ret, "Aerial%sIcon")

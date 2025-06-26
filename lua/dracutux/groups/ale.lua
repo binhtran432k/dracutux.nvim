@@ -2,11 +2,11 @@ local M = {}
 
 M.url = "https://github.com/dense-analysis/ale"
 
----@type DraculaHighlightsFn
+---@type dracutux.HighlightsFn
 function M.get(c)
   return {
-    ALEErrorSign = { fg = c.error },
-    ALEWarningSign = { fg = c.warning },
+    ALEErrorSign = { fg = c.red },
+    ALEWarningSign = { fg = c.yellow },
   }
 end
 

@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/echasnovski/mini.map"
 
----@type DraculaHighlightsFn
+---@type dracutux.HighlightsFn
 function M.get()
   return {
     MiniMapNormal = "NormalFloat",

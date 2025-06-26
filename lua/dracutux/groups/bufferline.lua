@@ -66,7 +66,7 @@ function M.get(p)
     BufferLineDiagnosticVisible = "BufferLineDiagnostic",
     BufferLineDiagnosticSelected = "BufferLineDuplicate",
 
-    BufferLineModified = { fg = p.cyan, bg = p.ui_base },
+    BufferLineModified = "BufferLineBuffer",
     BufferLineModifiedVisible = "BufferLineModified",
     BufferLineModifiedSelected = { fg = p.cyan, bg = p.base, bold = true },
   }

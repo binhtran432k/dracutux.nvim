@@ -20,7 +20,7 @@ function M.get(p)
     ["@lsp.typemod.function.defaultLibrary"] = "@function.builtin",
     ["@lsp.typemod.keyword.async"] = "@keyword.coroutine",
     ["@lsp.typemod.keyword.injected"] = "@keyword",
-    ["@lsp.typemod.macro.defaultLibrary"] = "@function.builtin",
+    ["@lsp.typemod.macro.defaultLibrary"] = { fg = p.purple, italic = true },
     ["@lsp.typemod.method.defaultLibrary"] = "@function.builtin",
     ["@lsp.typemod.operator.injected"] = "@operator",
     ["@lsp.typemod.string.injected"] = "@string",
