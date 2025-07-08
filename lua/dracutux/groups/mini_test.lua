@@ -4,11 +4,11 @@ M.url = "https://github.com/echasnovski/mini.test"
 
 ---@type DraculaHighlightsFn
 function M.get(c)
-  return {
-    MiniTestEmphasis = { bold = true },
-    MiniTestFail = { fg = c.red, bold = true },
-    MiniTestPass = { fg = c.green, bold = true },
-  }
+	return {
+		MiniTestEmphasis = { bold = true },
+		MiniTestFail = { fg = c.red, bold = true },
+		MiniTestPass = { fg = c.green, bold = true },
+	}
 end
 
 return M

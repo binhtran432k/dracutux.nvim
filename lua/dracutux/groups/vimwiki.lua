@@ -13,10 +13,10 @@ function M.get(c)
     VimwikiTag = { fg = c.green, bg = c.none },
     VimwikiMarkers = { fg = c.purple, bg = c.none },
   }
-  for i, color in ipairs(c.rainbow) do
-    ret["VimwikiHeader" .. i] = { fg = color, bg = c.none, bold = true }
-  end
-  return ret
+	for i, color in ipairs(c.rainbow) do
+		ret["VimwikiHeader" .. i] = { fg = color, bg = c.none, bold = true }
+	end
+	return ret
 end
 
 return M

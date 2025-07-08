@@ -12,10 +12,10 @@ function M.get(c)
     Headline  = "Headline1",
   }
 
-  for i, color in ipairs(c.rainbow) do
-    ret["Headline" .. i] = { bg = util.blend_bg(color, 0.05) }
-  end
-  return ret
+	for i, color in ipairs(c.rainbow) do
+		ret["Headline" .. i] = { bg = util.blend_bg(color, 0.05) }
+	end
+	return ret
 end
 
 return M
